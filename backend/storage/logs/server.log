@@ -58,3 +58,611 @@
 2025-01-03 15:02:53.102748000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
 2025-01-03 15:02:53.121166000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:56	Shutting down server...
 2025-01-03 15:02:53.121732000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:66	Server exiting
+2025-01-03 16:46:59.739280000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:41	server start	{"host": "http://127.0.0.1:8000"}
+2025-01-03 16:46:59.739883000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:42	docs addr	{"addr": "http://127.0.0.1:8000/swagger/index.html"}
+2025-01-03 16:46:59.740074000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:04.741433000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:09.742016000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:14.744359000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:19.745287000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:24.747293000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:29.748494000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-03 16:47:31.375088000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:56	Shutting down server...
+2025-01-03 16:47:31.375868000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:66	Server exiting
+2025-01-04 00:21:46.882475000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:41	server start	{"host": "http://127.0.0.1:8000"}
+2025-01-04 00:21:46.882949000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:42	docs addr	{"addr": "http://127.0.0.1:8000/swagger/index.html"}
+2025-01-04 00:21:46.883158000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:21:51.884309000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:21:56.885695000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:21:58.811001000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:31	Request	{"trace": "8609d1f58711542911054fdff500ac29", "request_method": "POST", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Content-Length":["55"],"Content-Type":["application/json"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/register", "request_params": "{\n  \"email\": \"1234@gmail.com\",\n  \"password\": \"123456\"\n}"}
+2025-01-04 00:21:58.813631000	[31merror[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/handler/user.go:41	userService.Register error	{"trace": "8609d1f58711542911054fdff500ac29", "request_method": "POST", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Content-Length":["55"],"Content-Type":["application/json"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/register", "request_params": "{\n  \"email\": \"1234@gmail.com\",\n  \"password\": \"123456\"\n}", "error": "The email is already in use."}
+brudlang/internal/handler.(*UserHandler).Register
+	/Users/bytedance/Code/frontend/BrudLang/backend/internal/handler/user.go:41
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+brudlang/internal/server.NewHTTPServer.RequestLogMiddleware.func8
+	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+brudlang/internal/server.NewHTTPServer.ResponseLogMiddleware.func7
+	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:40
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+brudlang/internal/server.NewHTTPServer.CORSMiddleware.func6
+	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/cors.go:21
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/bytedance/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2092
+2025-01-04 00:21:58.833829000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:42	Response	{"trace": "8609d1f58711542911054fdff500ac29", "request_method": "POST", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Content-Length":["55"],"Content-Type":["application/json"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/register", "request_params": "{\n  \"email\": \"1234@gmail.com\",\n  \"password\": \"123456\"\n}", "response_body": "{\"code\":1001,\"message\":\"The email is already in use.\",\"data\":{}}", "time": "23.1295ms"}
+2025-01-04 00:22:01.886998000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:06.889137000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:11.890270000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:14.273329000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:31	Request	{"trace": "c217450a472a4e641623166bd606da6c", "request_method": "POST", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Content-Length":["55"],"Content-Type":["application/json"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/login", "request_params": "{\n  \"email\": \"1234@gmail.com\",\n  \"password\": \"123456\"\n}"}
+2025-01-04 00:22:14.358304000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:42	Response	{"trace": "c217450a472a4e641623166bd606da6c", "request_method": "POST", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Content-Length":["55"],"Content-Type":["application/json"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/login", "request_params": "{\n  \"email\": \"1234@gmail.com\",\n  \"password\": \"123456\"\n}", "response_body": "{\"code\":0,\"message\":\"ok\",\"data\":{\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJCdDR6cnU1bmVDIiwiZXhwIjoxNzQzNjk3MzM0LCJuYmYiOjE3MzU5MjEzMzQsImlhdCI6MTczNTkyMTMzNH0.C6hv0tDRfmVKLPXNQmU-sb7J0W5-Ha0oFOfABrYKKlE\"}}", "time": "85.046417ms"}
+2025-01-04 00:22:16.891027000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:21.891950000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:24.981501000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:31	Request	{"trace": "edc0ef754bc32b3a6d5f1d41ed0bcdfe", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/user", "request_params": ""}
+2025-01-04 00:22:24.981758000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:42	Response	{"trace": "edc0ef754bc32b3a6d5f1d41ed0bcdfe", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/user", "request_params": "", "response_body": "{\"code\":401,\"message\":\"Unauthorized\",\"data\":{}}", "time": "421.125µs"}
+2025-01-04 00:22:26.892976000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:31.894909000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:36.896225000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:41.897326000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:46.898122000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:51.898666000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:22:55.690966000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:31	Request	{"trace": "4d3af5e9286c7bfdd22a7403df3769ef", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Authorization":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJCdDR6cnU1bmVDIiwiZXhwIjoxNzQzNjk3MzM0LCJuYmYiOjE3MzU5MjEzMzQsImlhdCI6MTczNTkyMTMzNH0.C6hv0tDRfmVKLPXNQmU-sb7J0W5-Ha0oFOfABrYKKlE"],"Connection":["keep-alive"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/user", "request_params": ""}
+2025-01-04 00:22:55.693010000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:42	Response	{"trace": "4d3af5e9286c7bfdd22a7403df3769ef", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Authorization":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJCdDR6cnU1bmVDIiwiZXhwIjoxNzQzNjk3MzM0LCJuYmYiOjE3MzU5MjEzMzQsImlhdCI6MTczNTkyMTMzNH0.C6hv0tDRfmVKLPXNQmU-sb7J0W5-Ha0oFOfABrYKKlE"],"Connection":["keep-alive"],"Origin":["http://127.0.0.1:8000"],"Referer":["http://127.0.0.1:8000/"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["cross-site"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/v1/user", "request_params": "", "UserId": "Bt4zru5neC", "response_body": "{\"code\":0,\"message\":\"ok\",\"data\":{\"userId\":\"Bt4zru5neC\",\"nickname\":\"\"}}", "time": "2.127625ms"}
+2025-01-04 00:22:56.899727000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:01.901397000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:06.901856000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:11.902865000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:16.903770000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:21.904935000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:26.905798000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:31.906094000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:36.906700000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:41.907880000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:46.908320000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:51.909432000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:23:56.910543000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:01.911163000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:06.911674000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:11.912128000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:16.913412000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:21.914701000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:26.915770000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:31.917421000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:36.918644000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:41.920047000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:46.920889000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:51.921652000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:24:56.923140000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:01.923795000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:06.924523000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:11.926035000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:16.927271000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:21.928646000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:26.929165000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:31.929744000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:36.930443000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:41.931083000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:46.931660000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:51.932819000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:25:56.933496000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:01.934676000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:06.935914000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:11.937217000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:16.938389000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:21.938992000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:26.940561000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:31.941664000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:36.942230000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:41.943105000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:46.944646000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:51.945203000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:26:56.945978000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:01.947290000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:06.948180000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:11.949358000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:16.950698000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:21.952069000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:26.953738000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:31.954877000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:36.955880000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:41.957262000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:46.958783000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:51.960122000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:27:56.960877000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:01.962782000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:06.964012000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:11.964518000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:16.966650000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:21.968117000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:26.969573000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:31.970770000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:36.971534000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:41.972630000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:46.974102000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:51.974623000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:28:56.971581000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:01.966866000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:06.964064000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:11.962525000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:16.961494000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:21.960550000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:26.960822000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:31.961812000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:36.962568000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:41.963224000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:46.964232000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:51.965252000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:29:56.965407000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:01.965945000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:06.966659000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:11.966922000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:16.967680000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:21.968418000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:26.968942000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:31.969479000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:36.970351000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:41.971367000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:46.972567000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:51.974056000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:30:56.975535000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:01.976680000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:06.977743000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:11.978910000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:16.979834000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:21.980202000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:26.980892000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:31.982024000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:36.983258000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:41.984254000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:46.986088000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:51.987253000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:31:56.988070000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:01.988760000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:06.989883000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:11.990833000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:16.991503000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:21.992890000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:26.994162000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:31.995218000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:36.995607000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:41.996834000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:46.997879000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:51.998368000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:32:56.999501000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:02.000076000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:07.000544000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:12.001875000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:17.003093000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:22.004452000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:27.005944000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:32.007133000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:37.008590000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:42.009946000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:47.011128000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:52.012999000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:33:57.014287000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:02.014638000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:07.015467000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:12.016724000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:17.018186000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:22.018887000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:27.019757000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:32.021076000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:37.021795000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:42.022296000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:47.023246000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:52.024270000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:34:57.025268000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:02.025757000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:07.026364000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:12.026958000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:17.028019000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:22.029156000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:27.029999000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:32.032169000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:37.032611000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:42.034860000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:47.035646000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:52.037656000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:35:57.038065000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:02.039299000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:07.040592000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:12.042283000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:17.043341000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:22.044040000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:27.045713000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:32.046883000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:37.048086000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:42.049376000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:47.050289000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:52.050670000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:36:57.051401000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:02.051743000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:07.053073000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:12.054138000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:17.055301000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:22.056632000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:27.057955000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:32.058580000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:37.059371000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:42.061676000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:47.063491000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:52.064240000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:37:57.065676000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:02.067527000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:07.069027000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:12.069591000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:17.070713000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:22.071970000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:27.073887000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:32.075196000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:37.076065000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:42.076396000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:42.269464000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:41	server start	{"host": "http://127.0.0.1:8000"}
+2025-01-04 00:38:42.269861000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/cmd/server/main.go:42	docs addr	{"addr": "http://127.0.0.1:8000/swagger/index.html"}
+2025-01-04 00:38:42.270066000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:42.270298000	[31mfatal[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:50	listen: listen tcp 127.0.0.1:8000: bind: address already in use
+
+brudlang/pkg/server/http.(*Server).Start
+	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:50
+brudlang/pkg/app.(*App).Run.func1
+	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/app/app.go:49
+2025-01-04 00:38:47.077840000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:52.079340000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:38:57.080396000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:02.081605000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:07.082365000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:12.083281000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:17.084483000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:22.085809000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:27.087174000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:32.088410000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:37.089261000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:42.089846000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:47.090881000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:52.092488000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:39:57.093150000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:02.094577000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:07.096025000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:12.096606000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:17.097361000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:22.098791000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:27.100153000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:32.101116000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:37.102213000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:42.103412000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:47.104858000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:52.105653000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:40:57.106678000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:02.107828000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:07.108485000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:12.109471000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:17.110110000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:22.111302000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:27.111781000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:32.113008000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:37.114574000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:42.115929000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:47.117621000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:52.119646000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:41:57.120858000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:02.121226000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:07.121592000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:12.122195000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:17.122738000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:22.123868000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:27.124468000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:32.125516000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:37.126682000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:42.127100000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:47.128066000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:52.128776000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:42:57.129983000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:02.137472000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:07.139104000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:12.140051000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:17.141348000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:22.142953000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:27.144025000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:32.145258000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:37.146160000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:42.147340000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:47.148750000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:52.150061000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:43:57.150588000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:02.149877000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:07.147780000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:12.146334000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:17.145734000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:22.145733000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:27.146536000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:32.147797000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:37.147650000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:42.148599000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:47.149736000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:52.151017000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:44:57.151357000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:02.153074000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:07.153385000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:12.154666000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:17.155886000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:22.157128000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:27.157992000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:32.159117000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:37.159808000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:42.160546000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:47.166384000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:52.167593000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:45:57.169145000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:02.170503000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:07.171994000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:12.173256000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:17.173994000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:22.176315000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:27.177358000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:32.178889000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:37.180245000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:42.182298000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:47.183550000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:52.185287000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:46:57.186191000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:02.188542000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:07.189809000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:07.664347000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:31	Request	{"trace": "8ad019044779a075edd599e5b95398c8", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/swagger.json", "request_params": ""}
+2025-01-04 00:47:07.664440000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/middleware/log.go:42	Response	{"trace": "8ad019044779a075edd599e5b95398c8", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,ja;q=0.6"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"macOS\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"]}, "request_url": "/swagger.json", "request_params": "", "response_body": "", "time": "452.5µs"}
+2025-01-04 00:47:12.191226000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:17.192696000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:22.193373000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:27.194652000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:32.196157000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:37.198266000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:42.199712000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:47.199987000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:52.201832000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:47:57.202734000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:02.204385000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:07.205618000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:12.206709000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:17.209241000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:22.212165000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:27.214054000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:32.215041000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:37.215824000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:42.217156000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:47.217970000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:52.218525000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:48:57.219395000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:02.219798000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:07.220456000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:12.220986000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:17.221936000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:22.223639000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:27.225745000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:32.226952000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:37.227713000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:42.229933000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:47.230956000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:52.232903000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:49:57.233264000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:02.233777000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:07.234565000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:12.235261000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:17.235784000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:22.236508000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:27.237800000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:32.239162000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:37.240008000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:42.242434000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:47.243412000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:52.244785000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:50:57.245784000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:02.246351000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:07.247801000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:12.249147000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:17.250114000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:22.251134000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:27.252465000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:32.253554000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:37.254406000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:42.255744000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:47.257101000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:52.258322000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:51:57.260032000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:02.260978000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:07.262081000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:12.262345000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:17.265045000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:22.265436000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:27.266629000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:32.266990000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:37.267954000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:42.268556000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:47.268903000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:52.270555000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:52:57.271762000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:02.272563000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:07.272804000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:12.273371000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:17.274120000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:22.274657000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:27.275766000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:32.277013000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:37.277955000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:42.278466000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:47.279089000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:52.281088000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:53:57.281762000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:02.283075000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:07.283942000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:12.284516000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:17.285502000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:22.286302000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:27.286751000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:32.288167000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:37.289599000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:42.290729000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:47.291906000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:52.293150000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:54:57.294542000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:02.294878000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:07.296099000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:12.296808000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:17.298228000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:22.298940000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:27.299363000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:32.299893000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:37.300901000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:42.301708000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:47.303115000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:52.304739000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:55:57.305934000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:02.306980000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:07.307798000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:12.309531000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:17.310573000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:22.312602000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:27.312727000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:32.313764000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:37.315041000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:42.316557000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:47.317143000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:52.319180000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:56:57.320524000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:02.321493000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:07.322050000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:12.322547000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:17.323936000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:22.325163000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:27.325843000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:32.327558000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:37.328054000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:42.343935000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:47.344651000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:52.346031000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:57:57.346766000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:02.347130000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:07.348081000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:12.349187000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:17.349734000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:22.350129000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:27.350815000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:32.352309000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:37.353188000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:42.354369000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:47.355102000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:52.356234000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:58:57.359694000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:02.360741000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:07.361551000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:12.362060000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:17.363273000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:22.365770000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:27.376821000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:32.385205000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:37.392042000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:42.397823000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:47.401907000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:52.405018000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 00:59:57.406986000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:02.409230000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:07.410735000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:12.412161000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:17.414008000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:22.415511000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:27.416976000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:32.418232000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:37.419599000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:42.421018000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:47.422511000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:52.423042000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:00:57.424169000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:02.425306000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:07.426073000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:12.426994000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:17.427897000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:22.429076000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:27.430226000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:32.431760000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:37.433132000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:42.434835000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:47.435569000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:52.436085000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:01:57.438264000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:02.439760000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:07.440230000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:12.448196000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:17.449597000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:22.450546000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:27.452089000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:32.453565000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:37.455086000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:42.455905000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:47.456684000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:52.457913000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:02:57.459393000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:02.461020000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:07.461450000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:12.462916000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:17.464445000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:22.465261000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:27.466791000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:32.467478000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:37.468966000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:42.469879000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:47.470947000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:52.471594000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:03:57.473391000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:02.474099000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:07.474766000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:12.475472000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:17.477136000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:22.477729000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:27.479551000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:32.480518000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:37.480959000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:42.482755000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:47.483410000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:52.483791000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:04:57.484842000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:02.485884000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:07.487183000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:12.488510000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:17.489397000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:22.490951000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:27.492485000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:32.493313000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:37.494485000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:42.496332000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:47.496569000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:52.498185000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:05:57.498901000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:02.499502000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:07.500371000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:12.501186000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:17.502964000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:22.503722000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:27.505317000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:32.506018000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:37.506554000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:42.508730000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:47.509996000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/internal/job/user.go:31	KafkaConsumer
+2025-01-04 01:06:50.163839000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:56	Shutting down server...
+2025-01-04 01:06:50.164218000	[34minfo[0m	/Users/bytedance/Code/frontend/BrudLang/backend/pkg/server/http/http.go:66	Server exiting
