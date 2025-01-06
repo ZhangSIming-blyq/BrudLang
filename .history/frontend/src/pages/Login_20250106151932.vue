@@ -53,6 +53,7 @@ export default {
             email: '',
             password: '',
             error: null,
+            isSubmitting: false, // 添加状态
         }
     },
     methods: {
@@ -60,20 +61,18 @@ export default {
             if (this.isSubmitting) return
             this.isSubmitting = true
 
-            const api = new DefaultApi()
             try {
-                const response = await api.loginPost({ email: this.email, password: this.password })
-                const token = response.body?.data?.accessToken
-                console.log('登录成功:', token)
+                const body = { email: this.email, password: this.password }
+                const response = await apiClient.loginPost(body)
+                const token = response.accessToken
 
-                // 保存 Token 到 localStorage
                 localStorage.setItem('accessToken', token)
-
-                // 跳转到主页
                 this.$router.push('/')
             } catch (err) {
                 console.error('登录失败:', err)
                 this.error = '登录失败，请检查账号和密码'
+            } finally {
+                this.isSubmitting = false
             }
         },
     },

@@ -63,7 +63,7 @@ export default {
             const api = new DefaultApi()
             try {
                 const response = await api.loginPost({ email: this.email, password: this.password })
-                const token = response.body?.data?.accessToken
+                const token = response.accessToken
                 console.log('登录成功:', token)
 
                 // 保存 Token 到 localStorage

@@ -9,19 +9,17 @@
                             <img v-lazy="'img/now-logo.png'" alt="" />
                         </div>
 
-                        <fg-input v-model="email" class="no-border input-lg"
-                            addon-left-icon="now-ui-icons users_circle-08" placeholder="Email...">
+                        <fg-input class="no-border input-lg" addon-left-icon="now-ui-icons users_circle-08"
+                            placeholder="First Name...">
                         </fg-input>
 
-                        <fg-input v-model="password" class="no-border input-lg"
-                            addon-left-icon="now-ui-icons text_caps-small" placeholder="Password..." type="password">
+                        <fg-input class="no-border input-lg" addon-left-icon="now-ui-icons text_caps-small"
+                            placeholder="Last Name...">
                         </fg-input>
 
                         <template slot="raw-content">
                             <div class="card-footer text-center">
-                                <button @click="handleLogin" class="btn btn-primary btn-round btn-lg btn-block">
-                                    Login
-                                </button>
+                                <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Get Started</a>
                             </div>
                             <div class="pull-left">
                                 <h6>
@@ -44,8 +42,7 @@
 <script>
 import { Card, Button, FormGroupInput } from '@/components'
 import MainFooter from '@/layout/MainFooter'
-import { DefaultApi } from '@/api'
-
+import apiClient from '@/api' // 直接引入封装好的全局 API 实例
 
 export default {
     data() {
@@ -54,28 +51,6 @@ export default {
             password: '',
             error: null,
         }
-    },
-    methods: {
-        async handleLogin() {
-            if (this.isSubmitting) return
-            this.isSubmitting = true
-
-            const api = new DefaultApi()
-            try {
-                const response = await api.loginPost({ email: this.email, password: this.password })
-                const token = response.body?.data?.accessToken
-                console.log('登录成功:', token)
-
-                // 保存 Token 到 localStorage
-                localStorage.setItem('accessToken', token)
-
-                // 跳转到主页
-                this.$router.push('/')
-            } catch (err) {
-                console.error('登录失败:', err)
-                this.error = '登录失败，请检查账号和密码'
-            }
-        },
     },
     name: 'login-page',
     bodyClass: 'login-page',

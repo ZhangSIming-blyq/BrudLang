@@ -44,8 +44,7 @@
 <script>
 import { Card, Button, FormGroupInput } from '@/components'
 import MainFooter from '@/layout/MainFooter'
-import { DefaultApi } from '@/api'
-
+import apiClient from '@/index'
 
 export default {
     data() {
@@ -57,20 +56,13 @@ export default {
     },
     methods: {
         async handleLogin() {
-            if (this.isSubmitting) return
-            this.isSubmitting = true
-
-            const api = new DefaultApi()
             try {
-                const response = await api.loginPost({ email: this.email, password: this.password })
-                const token = response.body?.data?.accessToken
-                console.log('登录成功:', token)
-
-                // 保存 Token 到 localStorage
-                localStorage.setItem('accessToken', token)
-
-                // 跳转到主页
-                this.$router.push('/')
+                const response = await apiClient.loginPost({
+                    email: this.email,
+                    password: this.password,
+                })
+                localStorage.setItem('accessToken', response.data.accessToken) // 保存 Token
+                this.$router.push('/') // 跳转到主页
             } catch (err) {
                 console.error('登录失败:', err)
                 this.error = '登录失败，请检查账号和密码'

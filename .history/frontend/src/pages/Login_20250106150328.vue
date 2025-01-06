@@ -44,7 +44,7 @@
 <script>
 import { Card, Button, FormGroupInput } from '@/components'
 import MainFooter from '@/layout/MainFooter'
-import { DefaultApi } from '@/api'
+import { DefaultApi } from '@/api/api'
 
 
 export default {
@@ -57,14 +57,10 @@ export default {
     },
     methods: {
         async handleLogin() {
-            if (this.isSubmitting) return
-            this.isSubmitting = true
-
             const api = new DefaultApi()
             try {
                 const response = await api.loginPost({ email: this.email, password: this.password })
-                const token = response.body?.data?.accessToken
-                console.log('登录成功:', token)
+                const token = response.accessToken
 
                 // 保存 Token 到 localStorage
                 localStorage.setItem('accessToken', token)
